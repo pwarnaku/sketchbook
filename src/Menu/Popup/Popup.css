@@ -1,0 +1,18 @@
+.popup {
+    width: 300px;
+    height: 150px;
+    display: block;
+    top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -150px;
+  transition: 0.7s;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 3px #444;
+  border-radius: 7px;
+  position: fixed;
+  content: "";
+  z-index: 4;
+  color: #111;
+}
+
