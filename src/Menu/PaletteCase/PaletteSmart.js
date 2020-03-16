@@ -17,19 +17,20 @@ class PaletteSmart extends Component {
         
     }
     
-    ComponentDidMount(){
+
+    componentDidMount(){
         this.setState({
             id: this.props.id
         })
     }
-    
+    // colour picker
     togglePicker() {
         console.log(this.props.id)
         this.setState({
             showPicker: !this.state.showPicker
         });    
     }
-    
+    // drawing color updates
     colorUpdate(data) {
         this.setState({
             backgroundColor: data
